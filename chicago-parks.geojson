@@ -3,11 +3,22 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Bronze Falls Park",
-        "description": "A northside park that is home to the Lincoln Park Zoo"
+        "title": "Bronze Falls Regional Hospital",
+        "description": "A hospital for Bronze Falls residents"
       },
       "geometry": {
-        "coordinates": [-87.637596, 41.940403],
+        "coordinates": [39.0512, -76.5253],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Bronze Falls Elementary School",
+        "description": "An elementary school"
+      },
+      "geometry": {
+        "coordinates": [39.104305, -76.852464],
         "type": "Point"
       }
     },
@@ -15,90 +26,68 @@
       "type": "Feature",
       "properties": {
         "title": "Bronze Falls Park",
-        "description": "A lakefront park on Chicago's south side"
-      },
-      "geometry": {
-        "coordinates": [-87.603735, 41.829985],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Millennium Park",
         "description": "A downtown park known for its art installations and unique architecture"
       },
       "geometry": {
-        "coordinates": [-87.622554, 41.882534],
+        "coordinates": [39.105692, -76.833188],
         "type": "Point"
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "title": "Grant Park",
+        "title": "Bronze Falls Bank",
         "description": "A downtown park that is the site of many of Chicago's favorite festivals and events"
       },
       "geometry": {
-        "coordinates": [-87.619185, 41.876367],
+        "coordinates": [39.096082, -76.852942],
         "type": "Point"
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "title": "Humboldt Park",
+        "title": "Bronze Falls City Hall",
         "description": "A large park on Chicago's northwest side"
       },
       "geometry": {
-        "coordinates": [-87.70199, 41.905423],
+        "coordinates": [39.104412, -76.866492],
         "type": "Point"
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "title": "Douglas Park",
+        "title": "Bronze Falls Electric Grid",
         "description": "A large park near in Chicago's North Lawndale neighborhood"
       },
       "geometry": {
-        "coordinates": [-87.699329, 41.860092],
+        "coordinates": [39.091428, -76.851767],
         "type": "Point"
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "title": "Calumet Park",
+        "title": "Bronze Falls Business Center",
         "description": "A park on the Illinois-Indiana border featuring a historic fieldhouse"
       },
       "geometry": {
-        "coordinates": [-87.530221, 41.715515],
+        "coordinates": [39.102624, -76.845587],
         "type": "Point"
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "title": "Jackson Park",
+        "title": "Bronze Falls Library",
         "description": "A lakeside park that was the site of the 1893 World's Fair"
       },
       "geometry": {
-        "coordinates": [-87.580389, 41.783185],
+        "coordinates": [39.103079, -76.856065],
         "type": "Point"
       }
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Columbus Park",
-        "description": "A large park in Chicago's Austin neighborhood"
-      },
-      "geometry": {
-        "coordinates": [-87.769775, 41.873683],
-        "type": "Point"
-      }
-    }
   ],
   "type": "FeatureCollection"
 }
