@@ -1,0 +1,93 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Bronze Falls Regional Hospital",
+        "description": "A hospital for Bronze Falls residents"
+      },
+      "geometry": {
+        "coordinates": [39.0512, -76.5253],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Bronze Falls Elementary School",
+        "description": "An elementary school"
+      },
+      "geometry": {
+        "coordinates": [39.104305, -76.852464],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Bronze Falls Park",
+        "description": "A downtown park known for its art installations and unique architecture"
+      },
+      "geometry": {
+        "coordinates": [39.105692, -76.833188],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Bronze Falls Bank",
+        "description": "A downtown park that is the site of many of Chicago's favorite festivals and events"
+      },
+      "geometry": {
+        "coordinates": [39.096082, -76.852942],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Bronze Falls City Hall",
+        "description": "A large park on Chicago's northwest side"
+      },
+      "geometry": {
+        "coordinates": [39.104412, -76.866492],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Bronze Falls Electric Grid",
+        "description": "A large park near in Chicago's North Lawndale neighborhood"
+      },
+      "geometry": {
+        "coordinates": [39.091428, -76.851767],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Bronze Falls Business Center",
+        "description": "A park on the Illinois-Indiana border featuring a historic fieldhouse"
+      },
+      "geometry": {
+        "coordinates": [39.102624, -76.845587],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Bronze Falls Library",
+        "description": "A lakeside park that was the site of the 1893 World's Fair"
+      },
+      "geometry": {
+        "coordinates": [39.103079, -76.856065],
+        "type": "Point"
+      }
+    },
+  ],
+  "type": "FeatureCollection"
+}
