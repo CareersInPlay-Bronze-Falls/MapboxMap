@@ -7,7 +7,7 @@
         "description": "A hospital for Bronze Falls residents"
       },
       "geometry": {
-        "coordinates": [39.0512, -76.5253],
+        "coordinates": [39.087665, -76.880929],
         "type": "Point"
       }
     },
