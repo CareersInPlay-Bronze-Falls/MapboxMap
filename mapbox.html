@@ -1,30 +1,52 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset='utf-8' />
+    <title>Points on a map</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css' rel='stylesheet' />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
 
-<head>
-<meta charset=utf-8 />
-<title>A simple map</title>
-<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-<script src='https://api.mapbox.com/mapbox.js/v3.2.1/mapbox.js'></script>
-<link href='https://api.mapbox.com/mapbox.js/v3.2.1/mapbox.css' rel='stylesheet' />
-<style>
-  body { margin:0; padding:0; }
-  #map { position:absolute; top:0; bottom:25%; left:50%; width:50%; }
-</style>
-</head>
+      #map {
+        position: absolute;
+        top: 0;
+        bottom: 25%;
+        width: 50%;
+        left: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id='map'></div>
+    <script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoiYnJvbnplZmFsbHMiLCJhIjoiY2s3b3cxeWozMDBjdTNmb2M0bDgxdzM2ayJ9.E8pBmZokZd3p9UxNlUck_g'; // replace this with your access token
+    var map = new mapboxgl.Map({
+      container: 'map',
+      style: 'mapbox://styles/bronzefalls/ck8j2v0dy1bq01ip5td53stkc', // replace this with your style URL
+      center: [-76.862, 39.100],
+      zoom: 12.4
+    });
+    map.on('click', function(e) {
+        var features = map.queryRenderedFeatures(e.point, {
+            layers: ['bronzefallspoints'] // replace this with the name of the layer
+        });
 
-<body>
-<div id='map'></div>
-<script>
-L.mapbox.accessToken = 'pk.eyJ1IjoiYnJvbnplZmFsbHMiLCJhIjoiY2s3b3cxeWozMDBjdTNmb2M0bDgxdzM2ayJ9.E8pBmZokZd3p9UxNlUck_g'; //access token of map from Chenxi/Salma's account
-var map = L.mapbox.map('map')
-    .setView([39.0993, -76.8483], 11) //longitide and latitude, and then zoom amount
-    .addLayer(L.mapbox.styleLayer('mapbox://styles/bronzefalls/ck8j2v0dy1bq01ip5td53stkc')); //link to the style made in Mapbox Studio by Chenxi/Salma
+        if (!features.length) {
+            return;
+        }
 
-// disable map zoom when using scroll
-map.scrollZoom.disable();
+        var feature = features[0];
 
-</script>
-</body>
-
+        var popup = new mapboxgl.Popup({ offset: [0, -15] })
+            .setLngLat(feature.geometry.coordinates)
+            .setHTML('<h3>' + feature.properties.title + '</h3><p>' + feature.properties.description + '</p>')
+            .addTo(map);
+    });
+    </script>
+  </body>
 </html>
