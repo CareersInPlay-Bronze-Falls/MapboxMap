@@ -1,0 +1,219 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2020-06-08T19:16:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/522235281",
+        "addr:city": "Athens",
+        "addr:housenumber": "55",
+        "addr:postcode": "45701",
+        "addr:street": "Hospital Drive",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "O’Bleness Hospital",
+        "opening_hours": "24/7",
+        "operator": "OhioHealth",
+        "phone": "+1 740 593 5551",
+        "website": "https://www.ohiohealth.com/locations/hospitals/obleness-hospital",
+        "wikidata": "Q7071655",
+        "wikipedia": "en:O'Bleness Hospital"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.1158022,
+              39.3288198
+            ],
+            [
+              -82.1160401,
+              39.3288741
+            ],
+            [
+              -82.1161953,
+              39.3288203
+            ],
+            [
+              -82.1162925,
+              39.3287262
+            ],
+            [
+              -82.1162974,
+              39.328652
+            ],
+            [
+              -82.116419,
+              39.3267968
+            ],
+            [
+              -82.1163803,
+              39.3267163
+            ],
+            [
+              -82.1162207,
+              39.3266289
+            ],
+            [
+              -82.1157599,
+              39.3265245
+            ],
+            [
+              -82.1156507,
+              39.3264997
+            ],
+            [
+              -82.1148582,
+              39.3263455
+            ],
+            [
+              -82.1140122,
+              39.3261123
+            ],
+            [
+              -82.1132585,
+              39.3258904
+            ],
+            [
+              -82.1124174,
+              39.325533
+            ],
+            [
+              -82.1121655,
+              39.3277191
+            ],
+            [
+              -82.1135968,
+              39.327772
+            ],
+            [
+              -82.1155546,
+              39.3289176
+            ],
+            [
+              -82.1158022,
+              39.3288198
+            ]
+          ]
+        ]
+      },
+      "id": "way/522235281"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/543812109",
+        "addr:city": "Athens",
+        "addr:housenumber": "100",
+        "addr:postcode": "45701",
+        "addr:state": "OH",
+        "addr:street": "Hospital Drive",
+        "amenity": "hospital",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "healthcare:speciality": "psychiatry",
+        "name": "Appalachian Behavioral Healthcare",
+        "operator": "State of Ohio",
+        "phone": "+1 740 594 5000",
+        "website": "https://mha.ohio.gov/Default.aspx?tabid=187"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.116419,
+              39.3267968
+            ],
+            [
+              -82.1162974,
+              39.328652
+            ],
+            [
+              -82.1162925,
+              39.3287262
+            ],
+            [
+              -82.1161953,
+              39.3288203
+            ],
+            [
+              -82.1160919,
+              39.3291647
+            ],
+            [
+              -82.1160556,
+              39.3296315
+            ],
+            [
+              -82.1163225,
+              39.3298162
+            ],
+            [
+              -82.1168389,
+              39.3298615
+            ],
+            [
+              -82.1173632,
+              39.3299075
+            ],
+            [
+              -82.1185058,
+              39.3299697
+            ],
+            [
+              -82.1188009,
+              39.3295631
+            ],
+            [
+              -82.1189189,
+              39.3295838
+            ],
+            [
+              -82.1196914,
+              39.3301274
+            ],
+            [
+              -82.1198469,
+              39.3300859
+            ],
+            [
+              -82.1200454,
+              39.3298867
+            ],
+            [
+              -82.1200615,
+              39.3288286
+            ],
+            [
+              -82.1195841,
+              39.3284884
+            ],
+            [
+              -82.1192569,
+              39.3281813
+            ],
+            [
+              -82.1184093,
+              39.3277082
+            ],
+            [
+              -82.117669,
+              39.3273804
+            ],
+            [
+              -82.116419,
+              39.3267968
+            ]
+          ]
+        ]
+      },
+      "id": "way/543812109"
+    }
+  ]
+}
